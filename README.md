@@ -1,6 +1,6 @@
 # 🚀 Knowledge Base Chatbot
 
-> **AI-Powered Enterprise Chat Assistant** — A full-stack, real-time knowledge base management system with intelligent chatbot grounded entirely in admin-curated content.
+> **AI-Powered Enterprise Chat Assistant** - A full-stack, real-time knowledge base management system with intelligent chatbot grounded entirely in admin-curated content.
 
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
@@ -17,7 +17,7 @@ Knowledge Base Chatbot is a **full-stack SaaS application** that empowers organi
 - 💬 **Support Employees**: Provide instant answers to employee questions
 - 👁️ **Monitor Live**: Admins oversee all conversations in real-time
 
-The AI is **completely grounded** — it answers ONLY from the knowledge base articles and says *"I don't have that information"* when the answer isn't available.
+The AI is **completely grounded** - it answers ONLY from the knowledge base articles and says *"I don't have that information"* when the answer isn't available.
 
 ---
 
@@ -53,7 +53,7 @@ The AI is **completely grounded** — it answers ONLY from the knowledge base ar
 - ✅ Employee session analytics
 
 ### 🤖 **AI Integration**
-- ✅ Groq API (LLaMA 3.1 8B Instant) — Ultra-fast, free
+- ✅ Groq API - Ultra-fast, free
 - ✅ System prompt grounding (answers ONLY from KB)
 - ✅ Zero hallucinations (no general knowledge)
 - ✅ Streaming responses (character-by-character)
@@ -225,26 +225,32 @@ Option 2: Sign up with Email (creates Firebase account)
 ## 📸 Screenshots
 
 ### Login Page
-Professional dark-themed login with admin, sign-in, and sign-up tabs.
+Professional dark-themed login with admin and employe sign-in tabs.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7c93c5b4-9746-402d-ae09-ed4fcc72f1ef" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5af77055-011a-42cc-af6b-abad51815462" />
 
 ### Admin Dashboard
 - **Knowledge Base Tab**: Table of articles with create/edit/delete
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ba8f34b3-cf1a-4eb9-a809-8beb00f2760e" />
+
 - **Monitoring Tab**: Real-time employee list and chat tracking
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e7467fd2-14da-4267-804e-ebfd9795d329" />
 
 ### Employee Chat
 - **Sidebar**: Chat sessions with active/ended status
 - **Chat Window**: Messages with streaming animation
 
-### AI Integration
-- User questions (blue, right-aligned)
-- Bot answers (gray, left-aligned)
-- Grounded responses (KB-only content)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6fa1a404-e3c7-4f40-8989-2851baf464f2" />
 
 ---
 
 ## 📦 Deployment
 
-### **Deploy to Vercel** (Recommended)
+### **Deploy to Vercel**
 
 ```bash
 # 1. Push to GitHub
@@ -261,7 +267,7 @@ vercel deploy --prod
 ```
 
 ### **Live URL**
-Your app will be available at: `https://your-project.vercel.app`
+https://kb-chatbot-pi.vercel.app
 
 ---
 
@@ -285,15 +291,6 @@ Your app will be available at: `https://your-project.vercel.app`
 - [ ] Advanced analytics dashboard
 - [ ] Multi-language support
 - [ ] Custom branding per company
-
----
-
-## 🙏 Acknowledgments
-
-- **Groq** — for the blazingly fast LLaMA 3.1 API
-- **Firebase** — for real-time database and auth
-- **Vercel** — for serverless hosting
-- **React & Tailwind** — for the development toolkit
 
 ---
 
