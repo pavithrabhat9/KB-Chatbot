@@ -43,7 +43,7 @@ ${kbArticles
   .join('\n\n')}`;
 
     // Call Groq API
-    const GROQ_API_KEY = process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY;
+    const GROQ_API_KEY = process.env.VITE_GROQ_API_KEY 
 
     if (!GROQ_API_KEY) {
       return res.status(200).json({
