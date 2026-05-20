@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import useAuthStore from './context/authStore';
 import ProtectedRoute from './components/ProtectedRoute';
 import LoginPage from './pages/LoginPage';
@@ -14,7 +15,9 @@ function App() {
   }, [restoreSession]);
 
   return (
-    <Routes>
+    <>
+      <SpeedInsights />
+      <Routes>
       <Route path="/login" element={<LoginPage />} />
       <Route
         path="/admin"
@@ -34,7 +37,8 @@ function App() {
       />
       <Route path="/" element={<Navigate to="/login" replace />} />
       <Route path="*" element={<Navigate to="/login" replace />} />
-    </Routes>
+      </Routes>
+    </>
   );
 }
 
